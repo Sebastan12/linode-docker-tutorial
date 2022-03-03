@@ -7,7 +7,8 @@ name: Publish Docker image
 
 on:
   push:
-    - master
+    branches:
+      - master
 
 jobs:
   push_to_registry:
